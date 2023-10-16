@@ -51,7 +51,6 @@ function changeSlide (toRight) {
 	}
 	document.querySelector(".banner-img").src = "assets/images/slideshow/" + slides[index].image;
 	textPresentation.innerHTML = slides[index].tagLine
-	console.log(index)
 	dotArray[index].classList.add("dot_selected")
 } 
 
