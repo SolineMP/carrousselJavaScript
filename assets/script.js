@@ -54,17 +54,6 @@ function changeSlide (toRight) {
 	dotArray[index].classList.add("dot_selected")
 } 
 
-// function changeSlide (toRight) {
-// 	index = toRight === true ? index++ : index--
-// 	if (index === slides.length) {
-// 		index = 0 
-// 	} else if (index === -1) {
-// 		index = slides.length - 1
-// 	}
-// 	document.querySelector(".banner-img").src = "assets/images/slideshow/" + slides[index].image;
-// 	textPresentation.innerHTML = slides[index].tagLine
-// 	dotArray[index].classList.add("dot_selected")
-// }
 // Événements déclenchés selon le clic 
 rightArrow.addEventListener("click", () => {
 	changeSlide(true)
